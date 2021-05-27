@@ -17,6 +17,7 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 */
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +25,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
+
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TwoSum.class);
 
@@ -35,7 +37,7 @@ public class TwoSum {
             tempMap.put(nums[i], i);
         }
 
-        LOGGER.debug("Tmp Map {}", tempMap);
+        LOGGER.info("Tmp Map {}", tempMap);
 
         for (int i = 0; i <= nums.length - 1; i++) {
             int secElement = target - nums[i];
