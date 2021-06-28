@@ -1,9 +1,5 @@
 package search;
 
-import sorting.E_QuickSort;
-import sorting.ISort;
-
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class BinarySearch {
